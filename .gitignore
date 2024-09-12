@@ -1,0 +1,28 @@
+# Ignore node_modules
+node_modules/
+
+# Ignore build outputs
+dist/
+build/
+
+# Ignore logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Ignore environment variable files
+.env
+
+# Ignore migrations (opcional)
+.migrations/
+
+# Ignore TypeScript cache
+*.tsbuildinfo
+
+# Ignore editor specific files
+.vscode/
+.idea/
+
+# Ignore Docker related files (opcional)
+docker-compose.yml
